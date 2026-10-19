@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout GitHub') {
             steps {
-                git branch: 'main', url: 'https://github.com/qfunky/TransactionQA.git'
+                git branch: 'main', url: 'https://github.com/funkovx/TransactionQA.git'
             }
         }
         stage('Run AutoTests') {
